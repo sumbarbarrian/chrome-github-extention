@@ -1,0 +1,14 @@
+{
+  "name": "GitHub Project Colors",
+  "version": "1.0.0",
+  "description": "Add colors",
+  "manifest_version": 3,
+  "author": "Mikhail Shcherbakov",
+  "content_scripts": [
+    {
+      "matches": ["https://*.github.com/*"],
+      "js": ["main.js"]
+    }
+  ],
+  "permissions": ["tabs","activeTab","scripting"]
+}
